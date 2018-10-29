@@ -11,3 +11,11 @@ There is an AccountC class that stores a collection of accounts. The AccountC cl
 The BookC class stores a collection of all books in the library. Just like the AccountC class the BookC class will also read a file and populate itself with books in the file. Also like the AccountC class, the BookC class also has function that deal with command inputs. It can display information of all the books, display information of a single book, search for books, add and remove books as well as export all information of all books into a file.
 
 The SIMULATION class takes in user input, as commands and depending on the command it will call the respective functions that deals with the command.
+
+To run the code please type into the terminal
+Make all
+Once done, the solution executable StackOverdue will appear.
+Type ./StackOverdue books.data accounts.data
+
+****NOTE******
+The Data directory has 4 directories. Each directories has their own books.data and accounts.data file.
